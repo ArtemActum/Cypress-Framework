@@ -19,7 +19,7 @@ describe('Login Failed Test', () => {
 
 describe('Login Success Test', () => {
     before(function () {
-        cy.visit()
+        cy.visit(url)
         Navbar.clickSignIn()
     })
 
